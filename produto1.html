@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto 1 - Detalhes da Compra</title>
+    <link rel="stylesheet" href="style.css"> <!-- Reutiliza o mesmo arquivo CSS -->
+</head>
+<body>
+    <div class="header">
+        <h1>Obrigado por comprar o Produto 1!</h1>
+        <p>Confira os detalhes do seu pedido abaixo.</p>
+    </div>
+
+    <div class="product">
+        <h2>Detalhes do Produto 1</h2>
+        <p>Descrição detalhada do Produto 1, incluindo características e especificações.</p>
+        <button class="btn" onclick="voltar()">Voltar para a página inicial</button>
+    </div>
+
+    <div class="footer">
+        <p>Obrigado por escolher nossos serviços!</p>
+    </div>
+
+    <script>
+        function voltar() {
+            window.location.href = 'index.html'; // Redireciona de volta para a página principal
+        }
+    </script>
+</body>
+</html>
